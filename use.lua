@@ -68,7 +68,7 @@ function AVTP_Protocol.dissector(buffer, pinfo, tree)
   end
 end
 
-dofile("ZXY_AVTP_Func.lua")
+dofile("AVTP_Func.lua")
 
 -- local tcp_port = DissectorTable.get("tcp.port")
 -- tcp_port:add(37654, AVTP_Protocol)
